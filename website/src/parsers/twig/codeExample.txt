@@ -1,0 +1,10 @@
+{# Paste Twig template here and explore the syntax tree. #}
+
+<h1>Members</h1>
+<ul>
+  {% for user in users %}
+    {% if name in user %}
+      <li>{{ name|e }}</li>
+    {% endif %}
+  {% endfor %}
+</ul>

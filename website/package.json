@@ -160,6 +160,7 @@
     "tern": "^0.24.3",
     "traceur": "0.0.111",
     "tslint": "^6.1.1",
+    "twig-parser": "file:../../twig-parser",
     "typescript": "^4.7.0",
     "typescript-eslint-parser": "^22.0.0",
     "uglify-es": "^3.0.28",
